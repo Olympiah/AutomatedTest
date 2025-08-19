@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: clicks
+Version: 0.0.0
+Summary: A small automation test with Python
+Author: Oly
+License: MIT
+Classifier: [
+Classifier: Programming Language :: Python :: 3,
+Classifier: Programming Language :: Python :: 3 :: Only,
+Classifier: ]
+Classifier: [options]
+Classifier: packages =
+Classifier: clicks
+Classifier: install_requires =
+Classifier: requests>=2    #just for example(should be your dependencies)
+Classifier: package_dir =
+Classifier: =src
+License-File: LICENSE
+Dynamic: license-file

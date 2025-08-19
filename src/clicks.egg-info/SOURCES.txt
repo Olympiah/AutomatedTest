@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/clicks/LikeButton.py
+src/clicks/__init__.py
+src/clicks/py.typed
+src/clicks.egg-info/PKG-INFO
+src/clicks.egg-info/SOURCES.txt
+src/clicks.egg-info/dependency_links.txt
+src/clicks.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_clicks.py
