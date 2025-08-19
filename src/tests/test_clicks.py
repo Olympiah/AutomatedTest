@@ -39,5 +39,5 @@ def test_multi_clicks(test_input, expected):
 # to skip
 # @pytest.mark.skip(reason="....")
 
-# to avoid a test that is an obvious fail from failing(b4 test)
+# to avoid a test that is an obvious fail from failing(b4 test you put that)
 # @pytest.mark.xfail
