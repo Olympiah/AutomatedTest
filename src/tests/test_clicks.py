@@ -1,4 +1,5 @@
 import pytest
+
 from clicks.LikeButton import LikeState, click_many
 
 
@@ -20,7 +21,6 @@ def test_single_click():
     ('lldd', LikeState.empty),
     ('ddl', LikeState.liked),
 ])
-
 def test_multi_clicks(test_input, expected):
     assert click_many(LikeState.empty, test_input) is expected
 
