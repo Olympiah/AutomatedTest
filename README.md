@@ -60,11 +60,11 @@ On every push or pull request to the repository, GitHub Actions triggers the CI 
 
 The workflow runs the following steps:
 
-Sets up the specified Python version(s)
+- Sets up the specified Python version(s)
 
-Installs dependencies
+- Installs dependencies
 
-Runs tox to execute all tests
+- Runs tox to execute all tests
 
 If all tests pass, the workflow succeeds ✅
 
@@ -72,7 +72,7 @@ If any test fails, the workflow fails ❌ and reports the error in the GitHub Ac
 
 This ensures that every change is tested automatically before being merged, preventing broken code from entering the main branch.
 
-🧩 Lessons Learned from Debugging
+Lessons Learned from Debugging😅
 
 While setting up the CI workflow, I encountered a recurring issue with the GitHub Actions YAML configuration:
 
