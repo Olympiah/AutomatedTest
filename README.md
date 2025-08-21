@@ -1,10 +1,12 @@
 Automation Testing with Python, Tox and Github Actions
 
 📌 Project Description
+---
 
 This project is an automation setup built with Python, tox, pytest, and GitHub Actions. The goal was to create a reliable continuous integration (CI) workflow that automatically runs tests in different environments, ensuring consistent quality and maintainability of the codebase.
 
 🛠️ Tools Used
+---
 
 Python – core programming language for building and running the tests
 
@@ -15,6 +17,7 @@ pytest – framework for writing and executing unit tests
 GitHub Actions – for continuous integration and automated testing
 
 📋 Prerequisites
+---
 
 Before running the project locally, ensure you have the following installed:
 
@@ -41,6 +44,7 @@ pytest
 ````
 
 ▶️ Usage / How It Works
+---
 1. Local Testing with tox
 
 tox creates isolated environments for testing.
@@ -73,6 +77,7 @@ If any test fails, the workflow fails ❌ and reports the error in the GitHub Ac
 This ensures that every change is tested automatically before being merged, preventing broken code from entering the main branch.
 
 Lessons Learned from Debugging😅
+---
 
 While setting up the CI workflow, I encountered a recurring issue with the GitHub Actions YAML configuration:
 
